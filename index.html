@@ -9,11 +9,20 @@
 <body>
 
     <main>
-        <div class="searchContainer">
-            <h1>What Was Their Number Again?</h1>
-            <label for="search">Search by contact name:</label>
-            <input type="search" type="text" placeholder="Contact Name">
-            <button>Search</button>
+        <h1>What Was Their Number Again?</h1>
+        <div class="inputBoxes">
+            <div class="searchContainer">
+                <label for="search">Search by contact name:</label>
+                <input name="search" type="text" placeholder="Contact Name">
+                <button id="sBtn">Search</button>
+            </div>
+            <div class="addContainer">
+                <label for="add">Add Contact:</label>
+                <input id="add" type="text" placeholder="Contact Name" required>
+                <input id="num" type="number" placeholder="Contact Number" required>
+                <p id="error"></p>
+                <button id="addBtn">Add</button>
+            </div>
         </div>
     </main>
 
@@ -21,10 +30,10 @@
         <div class="availableContacts">
             <h2>Available Contacts</h1>
                 <div class="contactsList">
-                    <div class="c1">Tom</div>
-                    <div class="c2">Bobby</div>
-                    <div class="c3">Jerry</div>
-                    <div class="c4">Jake</div>
+                    <button class="cl-btn"><div class="list-item">Tom</div></button>
+                    <button class="cl-btn"><div class="list-item">Bobby</div></button>
+                    <button class="cl-btn"><div class="list-item">Jerry</div></button>
+                    <button class="cl-btn"><div class="list-item">Jake</div></button>
                 </div>
         </div>
         <div class="outputText">
