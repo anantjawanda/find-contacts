@@ -30,7 +30,7 @@ btn.addEventListener("click", function() {
  });
 
  addContactBtn.addEventListener("click", function() {
-
+ 
     let newName = addContactInput.value.charAt(0).toUpperCase() + addContactInput.value.slice(1);
     let newNum = addContactNum.value;
     let error = document.getElementById("error");

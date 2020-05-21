@@ -60,7 +60,7 @@ main .inputBoxes input{
     border-width: 2px;
     border-style: solid;
     outline: none;
-}
+} 
 
 #addBtn, #sBtn {
     position: relative;
