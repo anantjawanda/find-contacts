@@ -1,6 +1,6 @@
 
 
-const contactsList = ["Tom:647-123-4567", "Bobby:647-234-5678", "Jerry:416-202-4421", "Jake:719-349-2139"];
+const contactsList = ["Tom:647-123-4567", "Bobby:647-234-5678", "Jerry:416-202-4421"];
 const paragraph = document.getElementById("paragraph");
 const input = document.querySelector("input");
 const btn = document.querySelector("button");
