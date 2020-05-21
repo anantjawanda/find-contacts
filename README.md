@@ -4,6 +4,7 @@ An exercise project from MDN Web Docs to practice and improve my javascript capa
 The website allows users to search a contact through an input, which will then search through the existing array elements. If the contact is found it will return their phone number.
 
 [Visit Link](https://anantjawanda.github.io/contacts-finder/)
+![](site-screenshot2.png)
 
 ## Documentation
 
